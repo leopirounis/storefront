@@ -1,6 +1,6 @@
-1. Project Title
+1. ## Project Title
     ## Storefront Django Admin Site
-2. Description
+2. ## Description
     A short summary about the project:
 
     A Django-based admin site for managing an e-commerce storefront. Features include product management, user authentication, and admin dashboard.
