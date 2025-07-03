@@ -12,19 +12,23 @@
 
 - Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
+   
+   git clone https://github.com/leopirounis/storefront.git
+   cd storefront
+   
 - Create and activate a virtual environment:
-    On macOS/Linux:
-        ```bash
+  
+  On macOS/Linux:
+  
         python3 -m venv venv
-        ```bash
+  
         source venv/bin/activate
-    On Windows:
-        ```bash
+  On Windows:
+ 
         venv\Scripts\activate
+  
 - Install dependencies:
-    ```bash
+  ```bash
     pip3 install -r requirements.txt
 - Set up environment variables:
 
@@ -34,13 +38,19 @@ Add your secrets (see .env.example for reference).
 
 - Apply database migrations:
     ```bash
+    
     python manage.py migrate
+    
 - Create a superuser to access the admin site:
     ```bash
+    
     python manage.py createsuperuser
+    
 - Run the development server:
     ```bash
+    
     python manage.py runserver
+    
 - Access the admin site:
 Open your browser and go to:
 http://127.0.0.1:8000/admin
