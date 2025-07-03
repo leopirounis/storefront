@@ -15,13 +15,13 @@
    git clone https://github.com/yourusername/your-repo-name.git
    cd your-repo-name
 - Create and activate a virtual environment:
-On macOS/Linux:
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-On Windows:
-    ```bash
-    venv\Scripts\activate
+    On macOS/Linux:
+        ```bash
+        python3 -m venv venv
+        source venv/bin/activate
+    On Windows:
+        ```bash
+        venv\Scripts\activate
 - Install dependencies:
     ```bash
     pip3 install -r requirements.txt
